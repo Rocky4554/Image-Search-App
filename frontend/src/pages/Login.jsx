@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { authAPI } from '../api/client';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://image-search-app-seven-alpha.vercel.app/api';
 
 function Login() {
   const navigate = useNavigate();
