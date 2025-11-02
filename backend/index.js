@@ -64,8 +64,8 @@ app.use(passport.session());
 
 // Routes
 app.use('/api/auth', authRoutes);
-app.use('/api/search', searchRoutes);
-app.use('/api/history', historyRoutes);
+app.use('/api', searchRoutes);
+app.use('/api', historyRoutes);
 
 // Health route
 app.get('/api/health', (req, res) => {
