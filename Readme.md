@@ -1,8 +1,8 @@
-# 🖼️ MERN Image Search Application with OAuth
+#  MERN Image Search Application with OAuth
 
 A full-stack web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that allows authenticated users to search for images using the Unsplash API, select multiple images, and maintain a personal search history.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -15,33 +15,33 @@ A full-stack web application built with the MERN stack (MongoDB, Express.js, Rea
 - [Screenshots](#screenshots)
 - [OAuth Setup Guides](#oauth-setup-guides)
 
-## ✨ Features
+## Features
 
-### 🔐 Authentication
+###  Authentication
 - **Multi-provider OAuth login** via Google, Facebook, and GitHub using Passport.js
 - Only authenticated users can search images and view history
 - Secure session management with MongoDB session store
 
-### 🔍 Image Search
+###  Image Search
 - Real-time image search powered by Unsplash API
 - Display search results in a responsive 4-column grid
 - Multi-select functionality with checkboxes
 - Dynamic counter showing number of selected images
 - Display total results count for each search
 
-### 📊 Top Searches Banner
+###  Top Searches Banner
 - Shows top 5 most searched terms across all users
 - Updates dynamically based on all user searches
 - Displayed prominently at the top of the application
 
-### 📜 Personal Search History
+###  Personal Search History
 - Collapsible sidebar showing user's past searches
 - Timestamps with human-readable format (e.g., "5m ago", "2h ago")
 - Search filter to find specific past searches
 - Click on any history item to re-run that search
 - Shows total count of searches
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React.js** - UI framework
@@ -65,7 +65,7 @@ A full-stack web application built with the MERN stack (MongoDB, Express.js, Rea
 ### External APIs
 - **Unsplash API** - Image search and retrieval
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 project-root/
@@ -111,7 +111,7 @@ project-root/
     └── package.json
 ```
 
-## 📦 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have the following installed:
 - **Node.js** (v16 or higher)
@@ -119,7 +119,7 @@ Before you begin, ensure you have the following installed:
 - **MongoDB Atlas account** (or local MongoDB)
 - **Git**
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -154,7 +154,7 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 ### Backend (.env)
 
@@ -197,7 +197,7 @@ Create a `.env` file in the `frontend` directory:
 VITE_API_URL=http://localhost:5000/api
 ```
 
-## 🏃‍♂️ Running the Application
+##  Running the Application
 
 ### 1. Start the Backend Server
 
@@ -225,7 +225,7 @@ The frontend will start on `http://localhost:5173`
 
 Open your browser and navigate to: `http://localhost:5173`
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Authentication Endpoints
 
@@ -244,8 +244,8 @@ Open your browser and navigate to: `http://localhost:5173`
 
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| POST | `/api/search` | Search images via Unsplash | ✅ Yes |
-| GET | `/api/top-searches` | Get top 5 searched terms | ✅ Yes |
+| POST | `/api/search` | Search images via Unsplash |  Yes |
+| GET | `/api/top-searches` | Get top 5 searched terms |  Yes |
 
 **POST /api/search - Request Body:**
 ```json
@@ -290,7 +290,7 @@ Open your browser and navigate to: `http://localhost:5173`
 
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| GET | `/api/history` | Get user's search history | ✅ Yes |
+| GET | `/api/history` | Get user's search history |  Yes |
 
 **GET /api/history - Response:**
 ```json
@@ -308,7 +308,7 @@ Open your browser and navigate to: `http://localhost:5173`
 ]
 ```
 
-## 📸 Screenshots
+##  Screenshots
 
 ### 1. OAuth Login Page
 ![OAuth Login](./frontend/public/screenshots/Auth.png)
@@ -367,7 +367,7 @@ The collapsible sidebar includes:
 - Total search count at the bottom
 - Smooth slide-in/out animation
 
-## 🔑 OAuth Setup Guides
+##  OAuth Setup Guides
 
 ### Google OAuth Setup
 
@@ -429,7 +429,7 @@ The collapsible sidebar includes:
    - **Description**: `MERN stack image search application`
 6. Copy the **Access Key** to your `.env` file
 
-## 🧪 Testing the Application
+##  Testing the Application
 
 ### Manual Testing Checklist
 
@@ -494,7 +494,7 @@ curl -X GET http://localhost:5000/api/history \
   --cookie "connect.sid=your-session-cookie"
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -516,7 +516,7 @@ curl -X GET http://localhost:5000/api/history \
 **Issue: "Module not found" errors**
 - **Solution**: Run `npm install` in both frontend and backend directories
 
-## 📝 Additional Notes
+##  Additional Notes
 
 ### Security Considerations
 - Never commit `.env` files to version control
@@ -544,11 +544,11 @@ When deploying to production:
 - [ ] Add social sharing features
 - [ ] User profile management
 
-## 📄 License
+##  License
 
 This project is created as part of an internship assignment for UD Studios.
 
-## 👨‍💻 Developer
+##  Developer
 
 **Your Name**
 - GitHub: [@yourusername](https://github.com/yourusername)
@@ -556,7 +556,7 @@ This project is created as part of an internship assignment for UD Studios.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Unsplash** for providing the image search API
 - **Passport.js** for authentication middleware
