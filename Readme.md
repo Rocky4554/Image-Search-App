@@ -311,7 +311,7 @@ Open your browser and navigate to: `http://localhost:5173`
 ## 📸 Screenshots
 
 ### 1. OAuth Login Page
-![OAuth Login](.public/screenshots/Auth.png)
+![OAuth Login](./public/screenshots/Auth.png)
 
 The login page features three OAuth providers:
 - **Google** - Sign in with Google account
@@ -323,7 +323,7 @@ All buttons are styled with provider-specific branding and colors.
 ---
 
 ### 2. Home Page with Top Searches Banner
-![Top Searches Banner](.public/screenshots/Topsearche.png)
+![Top Searches Banner](./public/screenshots/Topsearche.png)
 
 The top searches banner displays:
 - Top 5 most searched terms across all users
@@ -334,7 +334,7 @@ The top searches banner displays:
 ---
 
 ### 3. Search Results with Multi-Select
-![Search Results](.public/screenshots/images.png)
+![Search Results](./public/screenshots/images.png)
 
 Search results page features:
 - Search term and total results count displayed
@@ -346,7 +346,7 @@ Search results page features:
 ---
 
 ### 4. Multi-Select Counter
-![Multi-Select Counter](.public/screenshots/multselect.png)
+![Multi-Select Counter](./public/screenshots/multselect.png)
 
 When images are selected:
 - Dynamic counter shows "Selected: X images"
@@ -357,7 +357,7 @@ When images are selected:
 ---
 
 ### 5. Search History Sidebar
-![Search History Sidebar](.public/screenshots/history.png)
+![Search History Sidebar](./public/screenshots/history.png)
 
 The collapsible sidebar includes:
 - All past searches with timestamps
