@@ -311,7 +311,7 @@ Open your browser and navigate to: `http://localhost:5173`
 ## 📸 Screenshots
 
 ### 1. OAuth Login Page
-![OAuth Login](./screenshots/login-page.png)
+![OAuth Login](./screenshots/Auth.png)
 
 The login page features three OAuth providers:
 - **Google** - Sign in with Google account
@@ -323,7 +323,7 @@ All buttons are styled with provider-specific branding and colors.
 ---
 
 ### 2. Home Page with Top Searches Banner
-![Top Searches Banner](./screenshots/top-searches-banner.png)
+![Top Searches Banner](./screenshots/Topsearche.png)
 
 The top searches banner displays:
 - Top 5 most searched terms across all users
@@ -334,7 +334,7 @@ The top searches banner displays:
 ---
 
 ### 3. Search Results with Multi-Select
-![Search Results](./screenshots/search-results.png)
+![Search Results](./screenshots/images.png)
 
 Search results page features:
 - Search term and total results count displayed
@@ -346,7 +346,7 @@ Search results page features:
 ---
 
 ### 4. Multi-Select Counter
-![Multi-Select Counter](./screenshots/multi-select-counter.png)
+![Multi-Select Counter](./screenshots/multselect.png)
 
 When images are selected:
 - Dynamic counter shows "Selected: X images"
@@ -357,7 +357,7 @@ When images are selected:
 ---
 
 ### 5. Search History Sidebar
-![Search History Sidebar](./screenshots/search-history-sidebar.png)
+![Search History Sidebar](./screenshots/history.png)
 
 The collapsible sidebar includes:
 - All past searches with timestamps
@@ -366,32 +366,6 @@ The collapsible sidebar includes:
 - Click any item to re-run that search
 - Total search count at the bottom
 - Smooth slide-in/out animation
-
----
-
-### 6. User Profile & Navigation
-![Navigation Bar](./screenshots/navbar.png)
-
-The navigation bar shows:
-- App logo and hamburger menu to toggle sidebar
-- User avatar from OAuth provider
-- User name and email
-- Logout button
-- Responsive design for mobile devices
-
----
-
-### 7. Complete Application Flow
-![Complete Flow](./screenshots/complete-flow.gif)
-
-GIF demonstrating:
-1. OAuth login (GitHub example)
-2. Redirect to home page
-3. View top searches banner
-4. Perform a search
-5. Multi-select images
-6. View search history
-7. Click history item to search again
 
 ## 🔑 OAuth Setup Guides
 
